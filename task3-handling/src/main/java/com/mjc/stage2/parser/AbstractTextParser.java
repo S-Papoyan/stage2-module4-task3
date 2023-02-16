@@ -12,7 +12,6 @@ public abstract class AbstractTextParser {
         this.nextParser = nextParser;
     }
 
-
     public abstract void parse(AbstractTextComponent abstractTextComponent, String string);
 
     protected void setNextParser(AbstractTextParser nextParser) {
